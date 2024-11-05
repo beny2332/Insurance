@@ -15,7 +15,10 @@ export interface Policy{
 }
 
 export interface GenericPayload{
-    id?:string,
+    id?:string
     amount?:number
+    price?:number
+    policy_id?:string
+
 }
 
